@@ -53,6 +53,19 @@ body {
   transition: background-color 0.2s;
 }
 .nav-cta:hover { background-color: var(--negro); }
+.nav-ediciones {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--salmon);
+  text-decoration: none;
+  border: 1.5px solid var(--salmon);
+  padding: 8px 16px;
+  margin-right: 12px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.nav-ediciones:hover { background-color: var(--salmon); color: #fff; }
 
 /* ── HERO ── */
 .hero {
@@ -381,6 +394,20 @@ body {
 }
 .proximos-title { font-size: clamp(28px, 3.5vw, 40px); font-weight: 800; color: var(--negro); letter-spacing: -1px; line-height: 1.15; }
 .proximos-subtitle { font-size: 12px; font-weight: 400; color: var(--gris); }
+.proximos-ver-ediciones {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--negro);
+  text-decoration: none;
+  background-color: var(--salmon);
+  padding: 12px 22px;
+  transition: background-color 0.2s;
+}
+.proximos-ver-ediciones:hover { background-color: var(--negro); color: #fff; }
 .proximo-item {
   display: grid; grid-template-columns: 60px 100px 1fr;
   align-items: center; gap: 24px; padding: 20px 0;
@@ -535,6 +562,7 @@ body {
 <!-- NAV -->
 <nav class="nav">
   <a href="#" class="nav-logo">THE MENOPAUSE <span>TIMES</span></a>
+  <a href="https://dr-jose-meseguer.kit.com" target="_blank" class="nav-ediciones">Ver ediciones publicadas</a>
   <a href="#suscribete" class="nav-cta">Suscribirme gratis</a>
 </nav>
 
@@ -758,6 +786,7 @@ body {
         <div class="proximos-title">Suscríbete hoy.<br>Ya sabes lo que llega.</div>
       </div>
       <div class="proximos-subtitle">16 ediciones · Mayo–Diciembre 2026</div>
+      <a href="https://dr-jose-meseguer.kit.com" target="_blank" class="proximos-ver-ediciones">Ver ediciones publicadas →</a>
     </div>
     <div class="proximos-list">
             <div class="proximo-item fade-up">
